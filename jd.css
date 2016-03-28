@@ -1,0 +1,447 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+/*表头*/
+#header{
+    width: 100%;
+    height: 30px;
+    background-color: #f1f1f1;
+    font: 12px/30px "宋体";
+    color: #666666;
+}
+.center{
+    width: 1210px;
+    height: 100%;
+    margin: auto;
+}
+#header .center .send{
+    margin-left: 10px;
+    display: inline-block;
+}
+#header .right{
+    float: right;
+    display: inline-block;
+}
+#header .right li{
+    margin-left: 13px;
+    display: inline-block;
+}
+#header li span{
+    margin-left: 13px;
+    width: 1px;
+    height: 13px;
+    background-color: #dddddd;
+    display: inline-block;
+}
+#header .right li div{
+    display: inline-block;
+}
+#header .right li .login{
+    display: inline-block;
+    color: #c81623;
+}
+/*表头广告*/
+#headerad{
+    width: 100%;
+    height: 80px;
+    background-color: #d2d078;
+}
+#headerad .center{
+    background-image: url("img/headerad.jpg");
+}
+/*logo行的内容 包括搜索的内容*/
+#logo{
+    width: 100%;
+    height: 100px;
+}
+#logo .center{
+    position: relative;
+    width: 1210px;
+    height: 100%;
+    margin: auto;
+}
+#logo .center div{
+    display: inline-block;
+}
+#logo .center .logoimg{
+    height: 100%;
+    width: 300px;
+    background: url(img/logo-201305.png) no-repeat center center;
+    float: left;
+}
+#logo .center .search{
+    position: absolute;
+    left:50%;
+    top:50%;
+    width: 536px;
+    height: 36px;
+    margin-left: -270px;
+    margin-top: -20px;
+}
+#logo .center .search div:first-child{
+    float: left;
+}
+#logo .center .search div input{
+    position: relative;
+    width: 449px;
+    height: 32px;
+    border: 2px solid #b61d1d;
+    display: inline-block;
+    outline:none;
+    font-size: 14px;
+    padding-left:5px;
+}
+/*下拉框*/
+#logo .center .search .list{
+    position: absolute;
+    top:40px;
+    width: 449px;
+}
+#logo .center .search .list ul{
+    position: absolute;
+    top: -6px;
+    width: 100%;
+}
+#logo .center .search .list ul li{
+    padding-left:5px;
+    width: 100%;
+    height:20px;
+    font: 12px/20px "微软雅黑";
+}
+#logo .center .search .list ul li a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    width:100%;
+    height:100%;
+    background-color: white;
+}
+#logo .center .search .list ul li a:hover{
+ background-color: #ffdfc6;
+}
+
+#logo .center .search .btnsearch{
+    background: #b61d1d;
+    font: 17px/34px "微软雅黑";
+    color:#f9eded;
+    width: 78px;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+#logo .center .car{
+    height: 37px;
+    width: 140px;
+    float: right;
+    margin-top:27px;
+    margin-right: 65px;
+    border: 1px solid #b61d1d;
+    position: relative;
+}
+#logo .center .car div:nth-child(2){
+    position: absolute;
+    left: 20px;
+    top:12px;
+    width: 20px;
+    height: 20px;
+    background: url("img/jd2015img.png") no-repeat;
+    background-position: 0 -60px;
+}
+#logo .center .car div:last-child{
+    position: absolute;
+    left: 45px;
+    top:11px;
+    font: 13px/13px "微软雅黑";
+    background-position: 0 -60px;
+}
+#logo .center .car .detail{
+    position: absolute;
+    left: -171px;
+    top:37px;
+    width: 310px;
+    height: 70px;
+    border: 1px #b61d1d solid;
+    display: none;
+}
+#logo .center .car .bar{
+    position: absolute;
+    top: 37px;
+    left: 0;
+    width: 140px;
+    height: 1px;
+    background-color:#fff;
+    display: none;
+}
+/*导航1*/
+#nav1{
+    width: 100%;
+    height: 44px;
+    border-bottom: 2px #b1191a solid;
+}
+#nav1 .center .left{
+    float: left;
+    width: 210px;
+    height: 100%;
+    background-color:#b1191a;
+    font: 15px/44px "微软雅黑";
+    color: #ffffff;
+}
+#nav1 .center ul{
+    float:left;
+    height: 100%;
+}
+#nav1 .center ul li{
+    width: 70px;
+    height: 100%;
+    cursor: pointer;
+    float: left;
+    font:15px/44px "微软雅黑";
+    text-align: center;
+    z-index: -10;
+}
+#nav1 .center ul li:hover{
+    color: #c81623;
+}
+/*导航2*/
+#nav2{
+    width: 100%;
+    height: 500px;
+}
+#nav2 .center{
+    position: relative;
+}
+#rightbox{
+    border: 1px red solid;
+    float: left;
+    width: 208px;
+    height: 465px;
+    font:14px bold;
+    color: white;
+    font-family: "微软雅黑";
+}
+#right{
+    width: 100%;
+    height: 100%;
+    background-color: #c81623;
+}
+#right li{
+    padding-left: 10px;
+    height: 31px;
+    line-height: 31px;
+}
+#right li.over{
+    color: #c81623;
+    background-color: white;
+}
+#right li .nav{
+    position:absolute;
+    border: 1px red solid;
+    width: 1000px;
+    height: 465px;
+    top: -1px;
+    left: 210px;
+    color: black;
+    line-height: 465px;
+    text-align: center;
+    display: none;
+    background-color: white;
+}
+#nav .center{
+    position: absolute;
+}
+#outer{
+    float: left;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 730px;
+    height: 454px;
+    z-index: -1;
+}
+#inner{
+    width: 730px;
+    height: 454px;
+    background: url("img/loading.gif") no-repeat;
+    background-size: 100% 100%;
+}
+#inner img{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#tip{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -65px;
+}
+#tip li{
+    font-size: 10px;
+    float: left;
+    margin-left: 4px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: black;
+    text-align: center;
+    line-height: 18px;
+    cursor: pointer;
+}
+#tip li.select{
+    color: white;
+    background-color: #b61b1f;
+}
+#outer a{
+    width: 30px;
+    height: 45px;
+    position: absolute;
+    top: 50%;
+    margin-top: -22.5px;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+    display: none;
+    background: url("img/pre.png");
+    cursor: pointer;
+}
+#outer a.btnLeft{
+    left:0;
+}
+#outer a.btnRight{
+    right:0;
+    background-position: -50px 0;
+}
+#express{
+    width:251px;
+    height: 450px;
+    float: right;
+    margin-top: 12px;
+}
+#express .title{
+    height: 32px;
+    width: 221px;
+    border: 1px #e3e3e3 solid;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#express .title div:first-child{
+    height: 100%;
+    float: left;
+    font: 14px/32px "微软雅黑";
+}
+#express .title div:last-child{
+    height: 100%;
+    float: right;
+    font: 13px/32px "微软雅黑";
+}
+#express .content{
+    height: 130px;
+    width: 251px;
+    border: 1px #e3e3e3 solid;
+    border-top: none;
+}
+#express .content ul{
+    width: 100%;
+    height: 100%;
+}
+#express .content ul li{
+    width: 100%;
+    height: 19%;
+    font: 12px/30px "微软雅黑";
+
+}
+#express .content ul li span:first-child{
+    text-align: center;
+    display: inline-block;
+    width: 20%;
+    font-weight: bold;
+}
+#express .icon{
+    width: 252px;
+    height: 208px;
+    border-left:1px #e3e3e3 solid;
+}
+#express .icon ul{
+    width: 100%;
+    height: 100%;
+}
+#express .icon ul li{
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right:1px #e3e3e3 solid;
+    border-bottom:1px #e3e3e3 solid;
+}
+#express .icon ul li div:nth-child(1){
+    width: 25px;
+    height: 25px;
+    background:url("img/568dfdbdN4f7d7ca3.png") no-repeat;
+    /*background-position: 0 0;*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -12.5px;
+    margin-top: -20px;
+}
+#express .icon ul li div:nth-child(2){
+    font-size: 13px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 15%;
+}
+#express .insertad{
+    margin-top: 5px;
+    width:253px;
+    height:77px;
+    background:url("img/56ea7945Nf61879c1.jpg");
+}
+#recomand{
+    width: 100%;
+    height: 180px;
+}
+#recomand .center{
+    position: relative;
+}
+#recomand .center .reclogo{
+    width: 210px;
+    height: 150px;
+    background: url("img/rec.png");
+    float: left;
+}
+#recomand .banner{
+    position:absolute;
+    left: 210px;
+    height: 150px;
+}
+#recomand .banner img{
+    width:250px;
+    height: 100%;
+}
+#backTop{
+    position:fixed;
+    bottom: 34px;
+    right: 0;
+    width: 34px;
+    height: 34px;
+    background-color: #7a6e6e;
+    border-radius: 2px;
+    cursor: pointer;
+}
+#backTop div{
+    width: 15px;
+    height: 15px;
+    background: url("img/toolbar.png") no-repeat;
+    background-position: -58px -263px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    margin-top: -7.5px;
+    margin-left: -7.5px;
+}
+
+
